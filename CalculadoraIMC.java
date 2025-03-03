@@ -13,7 +13,7 @@ public class CalculadoraIMC {
         Locale.setDefault(Locale.US);
         Pessoa pessoa = new Pessoa();
 
-        System.out.println("Olá qual o seu nome?");
+        System.out.println("qual o seu nome?");
         String Nome = sc.nextLine();
         System.out.println("qual o seu peso?");
         double Peso = sc.nextDouble();
